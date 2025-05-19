@@ -77,13 +77,13 @@
 }
 
 .btn.btn-light {
-    color: var(--bs-primary);
+    
     border: none;
 }
 
 .btn.btn-light:hover {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: #464779;
 }
 
 
@@ -291,7 +291,7 @@
     width: 60px;
     height: 60px;
     border-radius: 60px;
-    background: var(--bs-primary);
+    
     color: var(--bs-white);
     font-size: 26px;
     display: flex;
@@ -462,13 +462,13 @@
     width: 100%;
     border-radius: 10px;
     display: flex;
-    background: var(--bs-white);
+    background: #464779;
     transition: 0.5s;
 }
 
 .offer-section .nav a.accordion-link.active {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background:#464779;
 }
 
 .offer-section .nav a.accordion-link h5 {
@@ -632,7 +632,7 @@
 
 .team .team-item:hover::after {
     height: 100%;
-    background: var(--bs-primary);
+    background: #464779;
 }
 
 .team .team-item .team-img {
